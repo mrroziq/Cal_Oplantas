@@ -1,0 +1,185 @@
+/*BODY*/
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  padding:30px;
+}
+
+/*HEADER*/
+.header {
+  text-align: center;
+  color: white;
+}
+
+/*JUDUL*/
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1e3c72;
+}
+
+/*CATATAN*/
+.catatan{
+  background:#fff8c4;
+  border-left:5px solid #ff9800;
+  padding:15px;
+  margin-top:20px;
+  border-radius:8px;
+}
+
+/*Icon / LOGO*/
+.logo-container{
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  padding: 10px 25px;
+  border-radius: 50px;
+
+  width: fit-content;
+  margin: 0 auto 15px auto;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.logo{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  display: block;
+}
+
+.image {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border-radius:20px;
+}
+
+/*FILTER BUTTON*/
+.filter-btns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+
+  background: white;
+  padding: 15px;
+  border-radius: 14px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #1e3c72;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #16325c;
+  transform: scale(1.03);
+}
+
+/*CONTAINER GRAF*/
+#grafContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/*CARD*/
+.card {
+  width: 100%;
+  max-width: 1000px;
+  background: white;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/*MATRIX*/
+.matrix-row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.matrix-row h3 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #1e3c72;
+}
+
+/*INPUT*/
+.input-a{
+  display:flex;
+  justify-content:center;
+  margin-bottom:20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+}
+
+.input-group label {
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.input-group input {
+  padding: 10px;
+  justify-content: center;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/*HASIL*/
+#hasil {
+  margin-top: 30px;
+  background: #e8f0ff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+#hasil h2,
+#hasil h3 {
+  color: #1e3c72;
+}
+
+pre {
+  background: #e5e7eb;
+  padding: 15px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 768px) {
+
+  .matrix-row {
+    flex-direction: column;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+}

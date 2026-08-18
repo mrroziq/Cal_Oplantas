@@ -1,0 +1,51 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalkulator Lampu Lalu Lintas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <header class="header">
+        <div class="logo-container">
+            <img src="logoundip.png" alt="Logo Undip" class="logo">
+            <img src="LogoAK.png" alt="Logo AK" class="logo">
+        </div>
+        <h1>OPLANTAS</h1>
+        <h2>Kalkulator Optimasi Lampu Lalu Lintas</h2>
+        <p>Optimasi Durasi Lampu Hijau Lalu Lintas Jalur Persimpangan</p>
+    </header>
+
+    <div class="menu-grid">
+      <div class="card">
+        <img src="jalur3simpang.jpg" alt="Lampu Lalu Lintas" class="image">
+        <h2>Graf 3 Simpang</h2>
+        <p>Perhitungan optimasi lampu lalu lintas sederhana untuk 3 persimpangan jalan.</p>
+        <button onclick="pilihGraf(3)">Kalkulator</button>
+      </div>
+
+      <div class="card">
+        <img src="jalur4simpang.jpg" alt="Lampu Lalu Lintas" class="image">
+        <h2>Graf 4 Simpang</h2>
+        <p>Perhitungan optimasi lampu lalu lintas menengah untuk 4 persimpangan jalan.</p>
+        <button onclick="pilihGraf(4)">Kalkulator</button>
+      </div>
+
+      <div class="card">
+        <img src="jalur5simpang.jpg" alt="Lampu Lalu Lintas" class="image">
+        <h2>Graf 5 Simpang</h2>
+        <p>Perhitungan optimasi lampu lalu lintas kompleks untuk 5 persimpangan jalan.</p>
+        <button onclick="pilihGraf(5)">Kalkulator</button>
+      </div>
+    </div>
+
+    <div onclick="window.location.href='Bukpan.html'" class="panduan" id="hasilMenu">Buku Panduan</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

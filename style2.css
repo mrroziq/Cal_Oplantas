@@ -1,0 +1,301 @@
+/* BODY */
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  padding:30px;
+  background:#f1f4f9;
+}
+
+/* HEADER */
+.header{
+  text-align:center;
+  color:white;
+  margin-bottom:30px;
+}
+
+/* JUDUL */
+h1{
+  text-align:center;
+  margin-bottom:30px;
+  color:#1e3c72;
+}
+
+/* SUBTITLE */
+.header p{
+  color:#555;
+  margin-top:-15px;
+  font-size:17px;
+}
+
+/* CATATAN */
+.catatan{
+  background:#fff8c4;
+  border-left:5px solid #ff9800;
+  padding:15px;
+  margin-top:20px;
+  border-radius:8px;
+}
+
+/* ICON / LOGO */
+.logo-container{
+  background:#ffffff;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:15px;
+
+  padding:10px 25px;
+
+  border-radius:50px;
+
+  width:fit-content;
+  margin:0 auto 15px auto;
+
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.logo{
+  width:80px;
+  height:80px;
+
+  object-fit:contain;
+  display:block;
+}
+
+/* FILTER BUTTON */
+.filter-btns{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  gap:12px;
+
+  margin-bottom:30px;
+  flex-wrap:wrap;
+
+  background:white;
+
+  padding:15px;
+
+  border-radius:14px;
+
+  box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* BUTTON */
+button{
+  padding:12px 20px;
+
+  border:none;
+  border-radius:10px;
+
+  background:#1e3c72;
+  color:white;
+
+  font-size:15px;
+
+  cursor:pointer;
+
+  transition:0.2s;
+}
+
+button:hover{
+  background:#16325c;
+  transform:scale(1.03);
+}
+
+/* BUKU */
+.book{
+  width:100%;
+  max-width:1000px;
+
+  margin:auto;
+
+  background:white;
+
+  border-radius:20px;
+
+  overflow:hidden;
+
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* COVER BUKU */
+.book-cover{
+  background:#1e3c72;
+
+  color:white;
+
+  text-align:center;
+
+  padding:50px 30px;
+}
+
+.book-cover h1{
+  color:white;
+  margin-bottom:15px;
+  font-size:36px;
+}
+
+.book-cover p{
+  font-size:18px;
+  line-height:1.8;
+
+  max-width:700px;
+  margin:auto;
+}
+
+/* ISI BUKU */
+.book-content{
+  padding:35px;
+  background:#ffffff;
+}
+
+/* JUDUL ISI */
+.book-content h2{
+  color:#1e3c72;
+  margin-top:30px;
+  margin-bottom:15px;
+  font-size:28px;
+}
+
+/* PARAGRAF & LIST */
+.book-content p,
+.book-content li{
+  color:#374151;
+  font-size:17px;
+  line-height:1.9;
+}
+
+.book-content ul,
+.book-content ol{
+  padding-left:25px;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+.simpang-container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
+.simpang-container1{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15%;
+  flex-wrap: nowrap;
+}
+
+.simpang-item{
+    text-align: center;
+}
+
+.simpang-item{
+    text-align: center;
+}
+
+.simpang-item figcaption,
+.caption{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #374151;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* IMAGE */
+.image{
+  width:50%;
+  display:block;
+  margin:25px auto;
+  border-radius:20px;
+}
+
+.image1{
+  width: 100%;
+  height: 200px;
+  gap: 20px;
+  object-fit: contain;
+  display: block;
+}
+
+.image2{
+  width: 80%;
+  height: auto;
+}
+
+.image3{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  display: block;
+}
+
+/* BOX HASIL */
+.hasil{
+  margin-top:30px;
+
+  background:#e8f0ff;
+
+  padding:20px;
+
+  border-radius:12px;
+
+  text-align:left;
+}
+
+/* RESPONSIVE */
+@media (max-width:768px){
+
+  body{
+    padding:20px;
+  }
+
+  .logo{
+    width:60px;
+    height:60px;
+  }
+
+  .book-cover{
+    padding:40px 20px;
+  }
+
+  .book-cover h1{
+    font-size:28px;
+  }
+
+  .book-content{
+    padding:25px;
+  }
+
+  .book-content h2{
+    font-size:24px;
+  }
+
+  .image{
+    width:100%;
+  }
+
+}
+
+.btn-download{
+  display:inline-block;
+  padding:12px 20px;
+  background:#1e3c72;
+  color:white;
+  text-decoration:none;
+  border-radius:8px;
+  transition:0.3s;
+}
+
+.btn-download:hover{
+  background:#2a5298;
+}
