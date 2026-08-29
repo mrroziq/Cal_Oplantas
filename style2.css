@@ -20,6 +20,11 @@ h1{
   color:#1e3c72;
 }
 
+.label {
+  display: inline-block;
+  width: 230px;
+}
+
 /* SUBTITLE */
 .header p{
   color:#555;
